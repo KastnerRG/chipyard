@@ -28,3 +28,6 @@ project/project/
 .sbt
 .classpath_cache/
 .vscode/
+generators/chipyard/src/main/resources/vsrc/my_axi_ip_blackbox.sv
+generators/chipyard/src/main/scala/config/SmallBoomMyAxiIPConfig.scala
+generators/chipyard/src/main/scala/my_axi_ip*
