@@ -34,15 +34,19 @@
 [submodule "tools/axe"]
 	path = tools/axe
 	url = https://github.com/CTSRD-CHERI/axe.git
+	ignore = all
 [submodule "software/spec2017"]
 	path = software/spec2017
 	url = https://github.com/ucb-bar/spec2017-workload.git
+	ignore = all
 [submodule "software/coremark"]
 	path = software/coremark
 	url = https://github.com/ucb-bar/coremark-workload.git
+	ignore = all
 [submodule "generators/gemmini"]
 	path = generators/gemmini
 	url = https://github.com/ucb-bar/gemmini
+	ignore = dirty
 [submodule "software/firemarshal"]
 	path = software/firemarshal
 	url = https://github.com/firesim/FireMarshal.git
@@ -58,6 +62,7 @@
 [submodule "software/nvdla-workload"]
 	path = software/nvdla-workload
 	url = https://github.com/ucb-bar/nvdla-workload.git
+	ignore = all
 [submodule "software/baremetal-ide"]
 	path = software/baremetal-ide
 	url = https://github.com/ucb-bar/Baremetal-IDE.git
@@ -85,24 +90,30 @@
 [submodule "toolchains/riscv-tools/riscv-openocd"]
 	path = toolchains/riscv-tools/riscv-openocd
 	url = https://github.com/riscv/riscv-openocd.git
+	ignore = all
 [submodule "toolchains/riscv-tools/riscv-isa-sim"]
 	path = toolchains/riscv-tools/riscv-isa-sim
 	url = https://github.com/riscv-software-src/riscv-isa-sim.git
 [submodule "toolchains/riscv-tools/riscv-tools-feedstock"]
 	path = toolchains/riscv-tools/riscv-tools-feedstock
 	url = https://github.com/ucb-bar/riscv-tools-feedstock.git
+	ignore = all
 [submodule "toolchains/esp-tools/esp-tools-feedstock"]
 	path = toolchains/esp-tools/esp-tools-feedstock
 	url = https://github.com/ucb-bar/esp-tools-feedstock.git
+	ignore = all
 [submodule "toolchains/esp-tools/riscv-isa-sim"]
 	path = toolchains/esp-tools/riscv-isa-sim
 	url = https://github.com/ucb-bar/esp-isa-sim.git
+	ignore = all
 [submodule "toolchains/esp-tools/riscv-pk"]
 	path = toolchains/esp-tools/riscv-pk
 	url = https://github.com/riscv-software-src/riscv-pk.git
+	ignore = all
 [submodule "toolchains/esp-tools/riscv-tests"]
 	path = toolchains/esp-tools/riscv-tests
 	url = https://github.com/ucb-bar/esp-tests.git
+	ignore = all
 [submodule "toolchains/libgloss"]
 	path = toolchains/libgloss
 	url = https://github.com/ucb-bar/libgloss-htif.git
