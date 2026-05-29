@@ -58,6 +58,11 @@ class LargeNVDLARocketConfig extends Config(
   new freechips.rocketchip.subsystem.WithNBigCores(1) ++
   new chipyard.config.AbstractConfig)
 
+class SmallBoomLargeNVDLAConfig extends Config(
+  new nvidia.blocks.dla.WithNVDLA("large") ++               // add a large NVDLA
+  new boom.common.WithNSmallBooms(1) ++                     // boomv3 small
+  new chipyard.config.AbstractConfig)
+
 class ManyMMIOAcceleratorRocketConfig extends Config(
   new chipyard.harness.WithDontTouchChipTopPorts(false) ++   // TODO: hack around dontTouch not working in SFC
   new fftgenerator.WithFFTGenerator(numPoints=8, width=16, decPt=8) ++ // add 8-point mmio fft at the default addr (0x2400) with 16bit fixed-point numbers.

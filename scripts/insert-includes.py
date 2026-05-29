@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
 
 # replaces a `include with the full include file.
 # recursively replaces `include's until none are left
